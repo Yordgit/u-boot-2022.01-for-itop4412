@@ -14,6 +14,9 @@
 #define CONFIG_EXYNOS4210		1	/* which is a EXYNOS4210 SoC */
 #define CONFIG_ITOP4412			1	/* working with ITOP4412*/
 
+/* USB */
+#define CONFIG_USB_EHCI_EXYNOS
+
 /* ITOP4412 has 4 bank of DRAM */
 #define CONFIG_SYS_SDRAM_BASE		0x40000000
 #define PHYS_SDRAM_1			CONFIG_SYS_SDRAM_BASE
